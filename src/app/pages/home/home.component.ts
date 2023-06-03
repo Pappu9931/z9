@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  public constructor(){
+    this.fun1();
+  }
+
+  public fun1(){
+    alert('fun1');
+  }
+
+  public fun2(){
+    alert('fun2');
+  }
 }
